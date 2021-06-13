@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!--ENCABEZADO-->
+        <header>
+            <img class="logo" width="150" height="50" src="./img/logo.png" alt="logo">
+          <!--MENU-->
+          <div class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="programas.html">Programas</a>
+                <ul>
+                  <li><a href="#">Programa Virtual</a></li>
+                  <li><a href="#">Programa Presencial</a></li>
+                  <li><a href="#">Programa de Criptomonedas</a></li>
+                </ul>
+                </li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+            </ul>
+        </div>
+        
+        </header>
+<section id="formulario">
+  <h1>ENVÍANOS UN MENSAJE</h1>
+    <form autocomplete="on" action="#" id="form" method="post">
+        <fieldset>
+        <legend>CONTÁCTANOS</legend>
+        <p>En el siguiente formulario debes llenar tus datos para comunicarte con nosotros:</p>
+        <p>
+        <label for="Nombres">Nombres</label><br/> 
+        <input type="text" name="nombres" id="nombre" maxlength="30" placeholder="Ingrese sus nombres">
+    </p>
+    <p>
+        <label for="Apellido">Apellidos</label><br/> 
+        <input type="text" name="apellido" id="apellido" maxlength="30" placeholder="Ingrese sus apellidos">
+    </p>
+    <p>
+        <label>Correo</label> <br/> 
+        <input type="email" name="email" maxlength="40" placeholder="Coloque su email">
+    </p>
+        <label>Genero</label> <br/><br/> 
+        <input type="radio" name="genero" value="masculino" checked="checked" /> Masculino 
+        <input type="radio" name="genero" value="femenino" /> Femenino 
+        <input type="radio" name="genero" value="otro" /> Otro 
+       <p>
+        <label>País:</label> <br/>
+        <select id="pais" name="pais">
+            <option value="">- Selecciona -</option>
+            <option value="Perú">perú</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+            <option value="México">México</option>
+          </select>
+        </p> 
+        <textarea placeholder="Escribe tu mensaje"></textarea><br/>
+        <input class="reset" type="reset" value="Limpiar"></button>
+        <input class="submit" type="submit" value="Enviar"></button>
+    </fieldset>
+    </form>
+  </section>
+  <hr/>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.2929490393888!2d-77.03195217076976!3d-12.100388788156582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c869bafc5607%3A0xcb18c086dd6439a7!2sCalle%20R%C3%ADo%20de%20la%20Plata%20167%2C%20San%20Isidro%2015046!5e0!3m2!1ses-419!2spe!4v1618785143498!5m2!1ses-419!2spe" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <hr>
+    <!--PIE DE PÁGINA-->
+   <footer>
+     <h3>NUESTRAS REDES:</h3>
+     <div class="redes">
+       <ul>
+           <li><a target="_blank" href="#"><img width="30" src="./img/facebook.png" alt="logo-facebook"> <span> FACEBOOK</span> </a></li>
+           <li><a target="_blank" href="#"><img width="30" src="./img/instagram.png" alt="logo-instagram"> <span> INSTAGRAM</span></a> </li>
+           <li><a target="_blank" href="#"><img width="30" src="./img/youtube.png" alt="logo-youtube"> <span> YOUTUBE</span></a> </li>
+       </ul>
+     </div>
+     <div class="datos-empresa">
+       <p>Email: bursadv@gmail.com</p>
+       <p>Celular / Whatsapp: +51 978 434 904 - +51 980 690 581</p>
+       <p>LUN - VIE 09:00 - 17:00</p>
+       <p>San Isidro, calle río de la plata 167 MIRAFLORES, LIMA - PERÚ</p>
+     </div>
+       
+       <p class="copy">BURS ADVISORY © - Todos los derechos reservados.</p>
+      
+   </footer>
+</body>
+</html>

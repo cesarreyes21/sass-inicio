@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin:0;
+}
+/*CABECERA Y MENU*/
+.logo{
+    padding-top: 20px;
+}
+/*MENU*/
+.menu{
+    float: right;
+    padding-right: 100px;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+}
+ul ul{
+    position: absolute;
+   display: none;
+}
+ul ul li {
+    display: block;
+    background-color: #cdcdcd;
+ }
+ ul li:hover ul {
+    display:block;
+ }
+ 
+.menu ul li{
+    display: inline-block;
+    padding: 10px;
+    line-height: 3;
+}
+.menu ul li a{
+    display: inline-block;
+text-decoration: none;
+font-family: "dubai";
+color: #000;
+}
+.menu ul li ul li a{
+    width: 190px;
+}
+.menu ul li ul li{
+    border-top: 1px solid #000;
+}
+header{
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #cdcdcd;
+}
+#formulario{
+    background-image: url(../img/formulario.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: "oswald";
+    padding: 180px 0;
+}
+/*FORMS*/
+form{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    background-color: #ddd9;
+}
+textarea{
+    width: 450px;
+    height: 200px;
+    padding: 10px;
+}
+.submit{
+    padding: 15px;
+    background-color: #00ac5e;
+    font-weight: 700;
+    color: #fff;
+    width: 150px;
+    font-size: 16px;
+    padding: 0 20px;
+    height: 44px;
+    border-radius: 24px;
+    border:none
+}
+.reset{
+    padding: 15px;
+    background-color: rgb(255, 13, 13);
+    font-weight: 700;
+    color: #fff;
+    width: 150px;
+    font-size: 16px;
+    padding: 0 20px;
+    height: 44px;
+    border-radius: 24px;
+    border:none
+}
+p{
+    font-family:'Segoe UI';
+}
+
+h3,h2{
+    font-family: "oswald";
+    margin-top:0px ;
+    text-align: center;
+}
+h5{
+    font-family: "oswald";
+    margin-top:0px ;
+    text-align: center;
+}
+footer{
+    width: 1350px;
+    margin: auto;
+}
+.redes{
+    width: 450px;
+    float: left;
+}
+.redes ul li a span{
+    font-family: "oswald";
+    color:#000;
+    padding-top: 15px;
+    margin:10px
+}
+.datos-empresa{
+    width: 800px;
+    float: right;
+    padding-left: 20px;
+
+}
+.copy{
+    width: 1200px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    float: left;
+    text-align: center;
+    margin: 0px;
+}
+
